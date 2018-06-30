@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./main.css">
+    <meta charset="UTF-8">
+    <title>BeerJSON</title>
+                                                         </head>
+<body>
+<div class="container">
+    <div  class="panel panel-definition">
+        <div class="panel-body">
+                    <section class="json-schema-description">
+                        <p>Documentation of definitions for WaterAddition, WaterBase and WaterType</p>
+                
+                    </section>
+                
+        </div>
+    </div>    <h2>Definitions</h2>
+                <div id="definition-WaterAddition" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/WaterAddition"></a>WaterAddition:
+                                    <span class="json-property-type">
+                <span class="json-property-type"></span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                                <section class="json-schema-description">
+                                    <p><span class="warning">note changed from WaterAdditionType to WaterAddition</span>WaterAddition collects the attributes of each water addition for use in a recipe</p>
+                            
+                                </section>
+                            
+                                <section class="json-schema-allOf">
+                                    <section class="json-schema-allOf-inherited">
+                                        <ul>
+                                                    <a class="json-schema-ref" href="#/definitions/WaterBase">WaterBase</a>
+                                        </ul>
+                                    </section>
+                                    <section class="json-schema-allOf-additional">
+                                                
+                                    </section>
+                                </section>
+                    </div>
+                </div>        <div id="definition-WaterBase" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/WaterBase"></a>WaterBase:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                                <section class="json-schema-description">
+                                    <p>WaterBase provides unique properties to identify individual records of regional brewing water</p>
+                            
+                                </section>
+                            
+                                    <section class="json-schema-properties">
+                                        <dl>
+                                                <dt data-property-name="name">
+                                                    <span class="json-property-name">name:</span>
+                                                    
+                                                    <span class="json-property-type">string</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="calcium">
+                                                    <span class="json-property-name">calcium:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="bicarbonate">
+                                                    <span class="json-property-name">bicarbonate:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="sulfate">
+                                                    <span class="json-property-name">sulfate:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="chloride">
+                                                    <span class="json-property-name">chloride:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="sodium">
+                                                    <span class="json-property-name">sodium:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="magnesium">
+                                                    <span class="json-property-name">magnesium:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                        </dl>
+                                    </section>
+                    </div>
+                </div>        <div id="definition-WaterType" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/WaterType"></a>WaterType:
+                                    <span class="json-property-type">
+                <span class="json-property-type"></span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                                <section class="json-schema-description">
+                                    <p>WaterType collects the attributes of a regional brewing water to store as record information</p>
+                            
+                                </section>
+                            
+                                <section class="json-schema-allOf">
+                                    <section class="json-schema-allOf-inherited">
+                                        <ul>
+                                                    <a class="json-schema-ref" href="#/definitions/WaterBase">WaterBase</a>
+                                        </ul>
+                                    </section>
+                                    <section class="json-schema-allOf-additional">
+                                                
+                                                    <section class="json-schema-properties">
+                                                        <dl>
+                                                                <dt data-property-name="pH">
+                                                                    <span class="json-property-name">pH:</span>
+                                                                    
+                                                                    <span class="json-property-type">number</span>
+                                                                    <span class="json-property-range" title="Value limits"></span>
+                                                                    
+                                                                </dt>
+                                                                <dd>
+                                                                    
+                                                                    <div class="json-inner-schema">
+                                                                        
+                                                                    </div>
+                                                                </dd>
+                                                                <dt data-property-name="notes">
+                                                                    <span class="json-property-name">notes:</span>
+                                                                    
+                                                                    <span class="json-property-type">string</span>
+                                                                    <span class="json-property-range" title="Value limits"></span>
+                                                                    
+                                                                </dt>
+                                                                <dd>
+                                                                    
+                                                                    <div class="json-inner-schema">
+                                                                        
+                                                                    </div>
+                                                                </dd>
+                                                        </dl>
+                                                    </section>
+                                    </section>
+                                </section>
+                    </div>
+                </div></div>
+<script src="bundle.js" type="application/javascript"></script>
+</body>
+</html>

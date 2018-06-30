@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="./main.css">
+    <meta charset="UTF-8">
+    <title>BeerJSON</title>
+                                                         </head>
+<body>
+<div class="container">
+    <div  class="panel panel-definition">
+        <div class="panel-body">
+                
+        </div>
+    </div>    <h2>Definitions</h2>
+                <div id="definition-Recipe" class="panel panel-definition">
+                        <div class="panel-heading">
+                                <h3 class="panel-title"><a name="/definitions/Recipe"></a>Recipe:
+                                    <span class="json-property-type">
+                <span class="json-property-type">object</span>
+                <span class="json-property-range" title="Value limits"></span>
+                
+                </span>
+                                </h3>
+                        </div>
+                    <div class="panel-body">
+                                <section class="json-schema-description">
+                                    <p>Recipe composes the information stored in a beerjson recipe</p>
+                            
+                                </section>
+                            
+                                    <section class="json-schema-properties">
+                                        <dl>
+                                                <dt data-property-name="name">
+                                                    <span class="json-property-name">name:</span>
+                                                    
+                                                    <span class="json-property-type">string</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="type">
+                                                    <span class="json-property-name">type:</span>
+                                                    
+                                                    <span class="json-property-type">string</span>    <span class="json-property-enum" title="Possible values">, x &isin; {
+                                                                    <span class="json-property-enum-item">extract</span>
+                                                                ,
+                                                                    <span class="json-property-enum-item">partial mash</span>
+                                                                ,
+                                                                    <span class="json-property-enum-item">all grain</span>
+                                                                
+                                                            }
+                                                            </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="author">
+                                                    <span class="json-property-name">author:</span>
+                                                    
+                                                    <span class="json-property-type">string</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="coauthor">
+                                                    <span class="json-property-name">coauthor:</span>
+                                                    
+                                                    <span class="json-property-type">string</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="created">
+                                                    <span class="json-property-name">created:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/DateType">measureable_units.jsonDateType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="batch_size">
+                                                    <span class="json-property-name">batch_size:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/VolumeType">measureable_units.jsonVolumeType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="boil_size">
+                                                    <span class="json-property-name">boil_size:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/VolumeType">measureable_units.jsonVolumeType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="boil_time">
+                                                    <span class="json-property-name">boil_time:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/TimeType">measureable_units.jsonTimeType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="efficiency">
+                                                    <span class="json-property-name">efficiency:</span>
+                                                    
+                                                    <span class="json-property-type">object</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                                <section class="json-schema-properties">
+                                                                    <dl>
+                                                                            <dt data-property-name="conversion">
+                                                                                <span class="json-property-name">conversion:</span>
+                                                                                
+                                                                                <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/PercentType">measureable_units.jsonPercentType</a>
+                                                                                </span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                            </dt>
+                                                                            <dd>
+                                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="lauter">
+                                                                                <span class="json-property-name">lauter:</span>
+                                                                                
+                                                                                <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/PercentType">measureable_units.jsonPercentType</a>
+                                                                                </span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                            </dt>
+                                                                            <dd>
+                                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="mash">
+                                                                                <span class="json-property-name">mash:</span>
+                                                                                
+                                                                                <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/PercentType">measureable_units.jsonPercentType</a>
+                                                                                </span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                            </dt>
+                                                                            <dd>
+                                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="brewhouse">
+                                                                                <span class="json-property-name">brewhouse:</span>
+                                                                                
+                                                                                <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/PercentType">measureable_units.jsonPercentType</a>
+                                                                                </span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                                    <span class="json-property-required"></span>
+                                                                            </dt>
+                                                                            <dd>
+                                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                </div>
+                                                                            </dd>
+                                                                    </dl>
+                                                                </section>
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="style">
+                                                    <span class="json-property-name">style:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="style.json#/definitions/RecipeStyleType">style.jsonRecipeStyleType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="ingredients">
+                                                    <span class="json-property-name">ingredients:</span>
+                                                    
+                                                    <span class="json-property-type">object</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                        <span class="json-property-required"></span>
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                                <section class="json-schema-properties">
+                                                                    <dl>
+                                                                            <dt data-property-name="fermentable_bill">
+                                                                                <span class="json-property-name">fermentable_bill:</span>
+                                                                                
+                                                                                <span class="json-property-type">object[]</span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                                    <span class="json-property-required"></span>
+                                                                            </dt>
+                                                                            <dd>
+                                                                                <p>fermentable_bill collects all the fermentable ingredients for use in a recipe</p>
+                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                                    <section class="json-schema-array-items">
+                                                                                                        
+                                                                                                        <span class="json-property-type">    <a class="json-schema-ref" href="fermentable.json#/definitions/FermentableAddition">fermentable.jsonFermentableAddition</a>
+                                                                                                        </span>
+                                                                                                        <span class="json-property-range" title="Value limits"></span>
+                                                                                                        
+                                                                                                        <div class="json-inner-schema">
+                                                                                                            
+                                                                                                        </div>
+                                                                                                    </section>                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="hop_bill">
+                                                                                <span class="json-property-name">hop_bill:</span>
+                                                                                
+                                                                                <span class="json-property-type">object[]</span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                            </dt>
+                                                                            <dd>
+                                                                                <p>hop_bill collects all the hops for use in a recipe</p>
+                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                                    <section class="json-schema-array-items">
+                                                                                                        
+                                                                                                        <span class="json-property-type">    <a class="json-schema-ref" href="hop.json#/definitions/HopAddition">hop.jsonHopAddition</a>
+                                                                                                        </span>
+                                                                                                        <span class="json-property-range" title="Value limits"></span>
+                                                                                                        
+                                                                                                        <div class="json-inner-schema">
+                                                                                                            
+                                                                                                        </div>
+                                                                                                    </section>                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="miscellaneous_additions">
+                                                                                <span class="json-property-name">miscellaneous_additions:</span>
+                                                                                
+                                                                                <span class="json-property-type">object[]</span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                            </dt>
+                                                                            <dd>
+                                                                                <p>miscellaneous_additions collects all the miscellaneous items for use in a recipe</p>
+                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                                    <section class="json-schema-array-items">
+                                                                                                        
+                                                                                                        <span class="json-property-type">    <a class="json-schema-ref" href="misc.json#/definitions/MiscellaneousAddition">misc.jsonMiscellaneousAddition</a>
+                                                                                                        </span>
+                                                                                                        <span class="json-property-range" title="Value limits"></span>
+                                                                                                        
+                                                                                                        <div class="json-inner-schema">
+                                                                                                            
+                                                                                                        </div>
+                                                                                                    </section>                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="culture_additions">
+                                                                                <span class="json-property-name">culture_additions:</span>
+                                                                                
+                                                                                <span class="json-property-type">object[]</span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                            </dt>
+                                                                            <dd>
+                                                                                <p>culture_additions collects all the culture items for use in a recipe</p>
+                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                                    <section class="json-schema-array-items">
+                                                                                                        
+                                                                                                        <span class="json-property-type">    <a class="json-schema-ref" href="culture.json#/definitions/CultureAddition">culture.jsonCultureAddition</a>
+                                                                                                        </span>
+                                                                                                        <span class="json-property-range" title="Value limits"></span>
+                                                                                                        
+                                                                                                        <div class="json-inner-schema">
+                                                                                                            
+                                                                                                        </div>
+                                                                                                    </section>                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="water_additions">
+                                                                                <span class="json-property-name">water_additions:</span>
+                                                                                
+                                                                                <span class="json-property-type">object[]</span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                            </dt>
+                                                                            <dd>
+                                                                                <p>water_additions collects all the water items for use in a recipe</p>
+                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                                    <section class="json-schema-array-items">
+                                                                                                        
+                                                                                                        <span class="json-property-type">    <a class="json-schema-ref" href="water.json#/definitions/WaterAddition">water.jsonWaterAddition</a>
+                                                                                                        </span>
+                                                                                                        <span class="json-property-range" title="Value limits"></span>
+                                                                                                        
+                                                                                                        <div class="json-inner-schema">
+                                                                                                            
+                                                                                                        </div>
+                                                                                                    </section>                </div>
+                                                                            </dd>
+                                                                    </dl>
+                                                                </section>
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="mash">
+                                                    <span class="json-property-name">mash:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="mash.json#/definitions/MashProcedure">mash.jsonMashProcedure</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="notes">
+                                                    <span class="json-property-name">notes:</span>
+                                                    
+                                                    <span class="json-property-type">string</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="original_gravity">
+                                                    <span class="json-property-name">original_gravity:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/DensityType">measureable_units.jsonDensityType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="final_gravity">
+                                                    <span class="json-property-name">final_gravity:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/DensityType">measureable_units.jsonDensityType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="alcohol_by_volume">
+                                                    <span class="json-property-name">alcohol_by_volume:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/PercentType">measureable_units.jsonPercentType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="ibu_estimate">
+                                                    <span class="json-property-name">ibu_estimate:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="hop.json#/definitions/IBUEstimateType">hop.jsonIBUEstimateType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="color_estimate">
+                                                    <span class="json-property-name">color_estimate:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/ColorType">measureable_units.jsonColorType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="beer_pH">
+                                                    <span class="json-property-name">beer_pH:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="measureable_units.html#/definitions/AcidityType">measureable_units.jsonAcidityType</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="carbonation">
+                                                    <span class="json-property-name">carbonation:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="fermentation">
+                                                    <span class="json-property-name">fermentation:</span>
+                                                    
+                                                    <span class="json-property-type">    <a class="json-schema-ref" href="fermentation.json#/definitions/FermentationProcedure">fermentation.jsonFermentationProcedure</a>
+                                                    </span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="taste">
+                                                    <span class="json-property-name">taste:</span>
+                                                    
+                                                    <span class="json-property-type">object</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                                <section class="json-schema-properties">
+                                                                    <dl>
+                                                                            <dt data-property-name="notes">
+                                                                                <span class="json-property-name">notes:</span>
+                                                                                
+                                                                                <span class="json-property-type">string</span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                                    <span class="json-property-required"></span>
+                                                                            </dt>
+                                                                            <dd>
+                                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                </div>
+                                                                            </dd>
+                                                                            <dt data-property-name="rating">
+                                                                                <span class="json-property-name">rating:</span>
+                                                                                
+                                                                                <span class="json-property-type">number</span>
+                                                                                <span class="json-property-range" title="Value limits"></span>
+                                                                                
+                                                                                    <span class="json-property-required"></span>
+                                                                            </dt>
+                                                                            <dd>
+                                                                                
+                                                                                <div class="json-inner-schema">
+                                                                                    
+                                                                                </div>
+                                                                            </dd>
+                                                                    </dl>
+                                                                </section>
+                                                    </div>
+                                                </dd>
+                                                <dt data-property-name="calories_per_pint">
+                                                    <span class="json-property-name">calories_per_pint:</span>
+                                                    
+                                                    <span class="json-property-type">number</span>
+                                                    <span class="json-property-range" title="Value limits"></span>
+                                                    
+                                                </dt>
+                                                <dd>
+                                                    
+                                                    <div class="json-inner-schema">
+                                                        
+                                                    </div>
+                                                </dd>
+                                        </dl>
+                                    </section>
+                    </div>
+                </div></div>
+<script src="bundle.js" type="application/javascript"></script>
+</body>
+</html>
